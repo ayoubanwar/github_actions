@@ -1,4 +1,4 @@
-name: "Newman Demo"
+name: "Newman Tuto"
 on:[push, pull_request]
 
 jobs: 
