@@ -1,0 +1,4 @@
+name: "Newman Demo"
+on:[push, pull_request]
+
+jobs: 
