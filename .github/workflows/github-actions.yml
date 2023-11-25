@@ -1,5 +1,5 @@
-name: "Newman First Tuto"
-on:[push, pull_request]
+name: "Newman Tuto"
+on: [push, pull_request]
 
 jobs: 
   build:
