@@ -16,7 +16,6 @@ jobs:
         with: 
           node-version: '16.x'
 
-    
     # Install the newman command line utility and also install the html extra reporter
       - name: Install newman
         run: |
@@ -26,6 +25,7 @@ jobs:
     # Make directory to upload the test results
       - name: Make Directory for results
         run: mkdir -p testResults
+
         
    # Run the POSTMAN collection
       - name: Run API Tests
